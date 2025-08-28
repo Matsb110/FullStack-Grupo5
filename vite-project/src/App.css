@@ -2,8 +2,11 @@
  font-family: Arial, sans-serif;
  text-align: center;
   margin-top: 50px;
+  align-items: center;
+justify-content: center;
  background-color: #f4f4f9;
 }
+
 h1 {
  color: #2b6cb0;
 }
