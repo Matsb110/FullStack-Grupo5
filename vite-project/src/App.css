@@ -1,21 +1,22 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+ font-family: Arial, sans-serif;
+ text-align: center;
+  margin-top: 50px;
+ background-color: #f4f4f9;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+h1 {
+ color: #2b6cb0;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+button {
+ padding: 10px 20px;
+ background-color: #3182ce;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+button:hover {
+ background-color: #2c5282;
 }
 
 @keyframes logo-spin {

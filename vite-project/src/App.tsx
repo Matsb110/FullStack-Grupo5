@@ -6,6 +6,9 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const updateCount = () => {
+    setCount(count + 1);
+  };
   return (
     <>
       <div>
@@ -20,10 +23,8 @@ function App() {
       <div className="card">
          <h1>¡Hola Desarrollo Web!</h1>
     <p>Este es mi primer laboratorio con HTML y CSS.</p>
-      <button id="btnClick">Haz clic aquí</button>
-          {/* <button onClick={() => setCount((count) => count + 1)}>
-            count is {count}
-          </button> */}
+      <button id="btnClick" onClick={updateCount}>Haz clic aquí</button>
+      <p>Has hecho clic {count} veces</p>
         </div>
     </>
   )
