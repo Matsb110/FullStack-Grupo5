@@ -19,7 +19,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Mi primera pagina web</h1>
+      <h1 className="text-3xl font-bold underline">Mi primera pagina web</h1>
       <div className="card">
          <h1>¡Hola Desarrollo Web!</h1>
     <p>Este es mi primer laboratorio con HTML y CSS.</p>
@@ -27,6 +27,8 @@ function App() {
       <p>Has hecho clic {count} veces</p>
         </div>
     </>
+
+      
   )
 }
 
